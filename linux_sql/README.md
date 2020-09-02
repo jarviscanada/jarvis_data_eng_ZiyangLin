@@ -1,6 +1,6 @@
 # Introduction
 
-####Linux Cluster Monitoring Agent
+#### Linux Cluster Monitoring Agent
 
 This project is designed to run in Linux OS to record hardware specifications and monitor hardware usages in a cluster network of Linux servers.
 The cluster monitoring agent will automate the process of setting up Docker and PostgreSQL database, then extract hardware information on every host server, and 
