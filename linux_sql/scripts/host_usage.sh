@@ -31,10 +31,10 @@ record_time=$(echo "$usage_out" | egrep -o '[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:
 
 # constructing SQL insert statement
 sql_statement=$(cat <<-END
-INSERT INTO host_usage(host_id, memory_free, cpu_idle, cpu_kernel, disk_io, disk_available, record_time) VALUES (
-  ((SELECT id FROM host_info WHERE hostname="$hostname"), "$memory_free", "$cpu_idle",
-    "$cpu_kernel", "$disk_io", "$disk_available", "$record_time")
-)
+INSERT INTO host_usage (host_id, memory_free, cpu_idle, cpu_kernel, disk_io, disk_available, record_time)
+   SELECT id, $memory_free, $cpu_idle, $cpu_kernel, $disk_io, $disk_available, '${record_time}'
+   FROM host_info
+   WHERE hostname='${hostname}'
 END
 )
 

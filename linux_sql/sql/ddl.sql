@@ -1,6 +1,6 @@
 \c host_agent
 
-CREATE TABLE IF NOT EXISTS host_info (
+CREATE TABLE IF NOT EXISTS public.host_info (
 
     "id" SERIAL PRIMARY KEY NOT NULL,
     "hostname" VARCHAR UNIQUE NOT NULL,
@@ -14,14 +14,15 @@ CREATE TABLE IF NOT EXISTS host_info (
 
 );
 
-CREATE TABLE IF NOT EXISTS host_usage (
+CREATE TABLE IF NOT EXISTS public.host_usage (
 
-    "host_id" INT REFERENCES host_info.id NOT NULL,
+    "host_id" INT NOT NULL,
     "memory_free" INT NOT NULL,
     "cpu_idle" INT NOT NULL,
     "cpu_kernel" INT NOT NULL,
     "disk_io" INT NOT NULL,
     "disk_available" INT NOT NULL,
-    "record_time" TIMESTAMP NOT NULL
+    "record_time" TIMESTAMP NOT NULL,
+    FOREIGN KEY ("host_id") REFERENCES host_info
 
 );
