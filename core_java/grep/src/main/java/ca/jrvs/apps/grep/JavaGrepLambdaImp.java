@@ -50,7 +50,6 @@ public class JavaGrepLambdaImp extends JavaGrepImp {
             logger.error(e.getMessage(), e);
         }
 
-        System.out.println(result);
         return result;
     }
 
