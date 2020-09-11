@@ -44,7 +44,7 @@ public class JavaGrepImp implements JavaGrep {
         for (File file : allFiles) {
             List<String> lines = readLines(file);
             for (String line : lines) {
-                System.out.println(line);
+                
                 if (containsPattern(line)) {
                     matchedLines.add(line);
                 }
