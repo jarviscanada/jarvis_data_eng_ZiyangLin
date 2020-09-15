@@ -86,9 +86,9 @@ public class JavaGrepImp implements JavaGrep {
                 lines.add(line);
             }
             reader.close();
-        } catch (FileNotFoundException e1) {
+        } catch (FileNotFoundException ex) {
             throw new RuntimeException("ERROR: input file not found.");
-        } catch (IOException e2) {
+        } catch (IOException ex) {
             throw new RuntimeException("ERROR: unable to utilize buffered reader.");
         }
 
