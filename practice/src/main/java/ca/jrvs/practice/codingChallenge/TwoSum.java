@@ -42,7 +42,7 @@ public class TwoSum {
             } else if (nums[i] + nums[j] < target) {
                 i++;
             } else {
-                j++;
+                j--;
             }
         }
 
