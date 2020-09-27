@@ -40,4 +40,4 @@ END
 
 # insert data using constructed statement into the psql database
 psql -h "$host" -p "$port" -U "$username" -d "$db_name" -c "$sql_statement"
-exit 0
+exit $?
