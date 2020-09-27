@@ -1,9 +1,12 @@
 package ca.jrvs.practice.dataStructure.list;
 
+import java.util.Objects;
+
 public class LinkedJList<E> implements JList<E> {
     Node head;
 
-    class Node {
+
+    public class Node {
         E data;
         Node next;
 
@@ -14,6 +17,31 @@ public class LinkedJList<E> implements JList<E> {
         public void setNext(Node next) {
             this.next = next;
         }
+
+        public Node getNext() {
+            return next;
+        }
+
+        public E getData() {
+            return data;
+        }
+
+        @Override
+        public boolean equals(Object o) {
+            if (this == o) return true;
+            if (o == null || getClass() != o.getClass()) return false;
+            Node node = (Node) o;
+            return Objects.equals(data, node.data);
+        }
+
+        @Override
+        public int hashCode() {
+            return Objects.hash(data);
+        }
+    }
+
+    public Node getHead() {
+        return head;
     }
 
     @Override
