@@ -1,0 +1,135 @@
+{
+  "education": [
+    {
+      "awards_achievements": [
+        "University of Toronto Innis College Entrance Scholarship \u0026 4-year in-course scholarship",
+        "Dean's List (2017-2020)",
+        "GPA: 3.74/4.00, Graduated with High Distinction"
+      ],
+      "degree": "Honour Bachelor of Sciences",
+      "department": "Statistics and Computer Science",
+      "duration": "2016-2020",
+      "school_name": "University of Toronto"
+    }
+  ],
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_ZiyangLin",
+  "highlighted_projects": [
+    {
+      "description": "Constructed equally-weighted (EW) and risk-parity (RP) factor-mimicking portfolios of macroeconomic variables of the past 30 years using multivariate time series model and analyzed their performance.",
+      "name": "VAR Time Series Modelling in R"
+    },
+    {
+      "description": "Built and trained a Python scikit-learn decision tree classifier to classify fake and real news headlines with both Gini and Information Gain criterion, and achieved a validation accuracy of 76%.",
+      "name": "Decision Tree Classifier for News Headlines"
+    },
+    {
+      "description": "Developed and tuned a multiclass classification neural network with Python scikit-learn for facial expression recognition using the Toronto Face Dataset, and achieved a 79% validation accuracy.",
+      "name": "Neural Network for Expression Recognition"
+    },
+    {
+      "description": "Developed multiple simple games that utilize Java OOP principles including a Snake Game, a Jigsaw Puzzle Game, and a Treasure Hunter Game with JavaFX.",
+      "name": "JavaFX Mini-Games"
+    }
+  ],
+  "jarvis_projects": [
+    {
+      "description": "Implemented a series of bash scripts and SQL scripts to automate the process of setting up PostgreSQL server and Docker, and record hardware specifications and monitor hardware usages in a cluster network of Linux servers for SQL analysis such as detecting server failures.",
+      "git_url": "/linux_sql",
+      "name": "Cluster Monitor"
+    },
+    {
+      "description": [
+        "Twitter App: Developed an 3-tier architecture application that interacts with the Twitter API to allow users to post, show, and delete tweets with a command line interface.",
+        "JDBC App: Implemented a DAO pattern with JDBC to model objects in a retailer database and perform CRUD operations with them.",
+        "Grep App: Implemented a Java application that reproduce the functionalities of grep command in linux, which can search for all occurrences of a regular expression in a root directory and write them to an output file."
+      ],
+      "git_url": "/core_java",
+      "name": "Core Java Apps"
+    },
+    {
+      "description": "In progress",
+      "git_url": "/springboot",
+      "name": "Springboot App"
+    },
+    {
+      "description": "Not yet started",
+      "git_url": "/hadoop",
+      "name": "Hadoop"
+    },
+    {
+      "description": "Not yet started",
+      "git_url": "/spark",
+      "name": "Spark"
+    },
+    {
+      "description": "Not yet started",
+      "git_url": "/cloud_devops",
+      "name": "Cloud/DevOps"
+    }
+  ],
+  "name": "Ziyang Lin",
+  "others": [
+    {
+      "bullets": [
+        "Vice President at the U of T Chinese Volunteer Association: Directed 5 charity fund-raising events such as food festival and campus masquerade, and performed sponsorship outreaching to contribute $11,000+ to the club’s annual account.",
+        "Leader in Summer Volunteer Teaching Program:  Recruited and led a team of 8 volunteers for a 3-week volunteer teaching program in a rural middle school in China."
+      ],
+      "title": "Volunteering Experience"
+    },
+    {
+      "bullets": [
+        "Languages: English (Native), Mandarin Chinese (Native), Japanese (Intermediate), Italian (Intermediate)",
+        "Business Skills: Business Competiveness Analysis, Basic Accounting Principles, Financial Modelling, Professional Service Skills",
+        "Interests: Guitar, Piano, Badminton, Soccer, Hiking, Cycling, Pen Calligraphy"
+      ],
+      "title": "Other Skills and Interests"
+    }
+  ],
+  "professional_experience": [
+    {
+      "company": "Jarvis Consulting Group",
+      "description": "Implemented multiple projects and applications that used a wide range of technologies including Java, RDBMS, Linux. Obtained hands-on experience in Agile practices in team collaboration such as holding Scrum ceremonies and leading the Scrum team's development cycle.",
+      "duration": "2020-present",
+      "title": "Data Engineer"
+    },
+    {
+      "company": "CUSO International (NPO)",
+      "description": "Designed a software and database architecture for a pilot maternal health care information system (Mother Care Info Track) in Nigeria by researching 30+ software modules, and wrote a Python program to output project cost based on the Amazon TCO model. Delivered remote consultancy services and composed a research report to the CUSO project team that aims to provide an actionable strategy against external climate shocks for small-scale women agricultural entrepreneurs in the Philippines.",
+      "duration": "2018-2020",
+      "title": "Volunteer Consultant"
+    },
+    {
+      "company": "Synced Technology Inc.",
+      "description": "Developed a Python crawler program to automatically collect recent news in the official website of major companies in the automobile, transportation, and semiconductor industry, and reformat them into an Excel table. Monitored industry dynamics by analyzing and summarizing 200+ global news per week in AI’s applications in trending scenarios such as autopilot system and smart home devices, and led the editing of the AI Daily news express channel.",
+      "duration": "2019-2020",
+      "title": "Industry Analyst, AI Sector"
+    }
+  ],
+  "skills": {
+    "competent": [
+      "REST API",
+      "Springboot",
+      "Docker",
+      "Latex",
+      "Theory of Computation"
+    ],
+    "familiar": [
+      "HTML/CSS",
+      "Javascript",
+      "C",
+      "Verilog",
+      "Assembly Language"
+    ],
+    "proficient": [
+      "Java",
+      "Linux/Bash",
+      "RDBMS/SQL",
+      "Agile/Scrum",
+      "Git",
+      "Python (numpy, scikit-learn, and PyTorch)",
+      "R (Linear Regression, Time Series, Bayesian Modeling)",
+      "Advanced Excel"
+    ]
+  },
+  "summary": "I am a new graduate from the University of Toronto with a bachelor degree in Statistics and Computer Science who holds a keen interest in both business and IT technologies. Within my coursework, I built a solid software engineering foundation along with working knowledge in data science and machine learning. Besides, my strong communication skills trained from a wide range of volunteering and leadership experience also allow me to work comfortably in both business and technical settings. I enjoy a dynamic and challenging work environment where I can apply my techincal knowledge to solve real-world business problems, and I am always open to new learning opportunities."
+}
