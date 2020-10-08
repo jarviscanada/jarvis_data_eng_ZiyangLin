@@ -44,7 +44,7 @@ public class QuoteDaoIntTest {
 
     @After
     public void deleteOne() {
-        quoteDao.deleteById(savedQuote.getID());
+        quoteDao.deleteById(savedQuote.getId());
     }
 
     @Test
@@ -84,15 +84,15 @@ public class QuoteDaoIntTest {
         quoteDao.saveAll(quotes);
         List<Quote> result = (List<Quote>) quoteDao.findAll();
         assertEquals(3, result.size());
-        assertEquals("TSLA", result.get(1).getID());
-        assertEquals("MSFT", result.get(2).getID());
+        assertEquals("TSLA", result.get(1).getId());
+        assertEquals("MSFT", result.get(2).getId());
     }
 
     @Test
     public void findById() {
         Optional<Quote> quote = quoteDao.findById("AAPL");
         assertTrue(quote.isPresent());
-        assertEquals("AAPL", quote.get().getID());
+        assertEquals("AAPL", quote.get().getId());
     }
 
     @Test
@@ -115,7 +115,7 @@ public class QuoteDaoIntTest {
         quoteDao.save(quote);
         List<Quote> allQuotes = (List<Quote>) quoteDao.findAll();
         assertEquals(2, allQuotes.size());
-        assertEquals("AAPL", allQuotes.get(0).getID());
+        assertEquals("AAPL", allQuotes.get(0).getId());
     }
 
     @Test

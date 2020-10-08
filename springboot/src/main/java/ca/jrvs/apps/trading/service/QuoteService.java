@@ -10,6 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Transactional
@@ -49,19 +50,41 @@ public class QuoteService {
      * @throws org.springframework.dao.DataAccessException if unable to retreive data
      * @throws IllegalArgumentException for invalid input
      */
-    public void updateMarketData() {
+    public List<Quote> updateMarketData() {
+        List<Quote> allQuotes = findAllQuotes();
+        for (Quote quote : allQuotes) {
+            String ticker = quote.getTicker();
+            IexQuote iexQuote = findIexQuoteByTicker(ticker);
+            Quote updatedQuote = buildQuoteFromIexQuote(iexQuote);
+            saveQuote(updatedQuote);
+        }
 
+        return findAllQuotes();
     }
 
     /**
      * Helper method for updateMarketData(). Map a IexQuote to a Quote entity.
      * Note: 'iexQuote.getLatestPrice() == null' if the stock market is closed.
      * Make sure set a default value for number field(s).
-     * @param iexQuote
-     * @return
+     *
+     * @param iexQuote IexQuote object
+     * @return converted Quote object
      */
     protected static Quote buildQuoteFromIexQuote(IexQuote iexQuote) {
-        return null;
+        Quote quote = new Quote();
+        quote.setTicker(iexQuote.getSymbol());
+        quote.setBidPrice(iexQuote.getIexBidPrice());
+        quote.setBidSize((int) iexQuote.getIexBidSize());
+        quote.setAskSize((int) iexQuote.getIexAskSize());
+        quote.setAskPrice(iexQuote.getIexAskPrice());
+        if (iexQuote.getLatestPrice() == 0.0) {
+            // if stock market closed, iexQuote.getLatestPrice() == null, set last price to be default -1.
+            // note that Java double cannot be null, if it is not set, it will automatically set to 0.0
+            quote.setLastPrice(-1d);
+        } else {
+            quote.setLastPrice(iexQuote.getLatestPrice());
+        }
+        return quote;
     }
 
     /**
@@ -72,14 +95,20 @@ public class QuoteService {
      *  - persist the quote to database
      */
     public List<Quote> saveQuotes(List<String> tickers) {
-        return null;
+        List<Quote> quotes = new ArrayList<>();
+        for (String ticker : tickers) {
+            quotes.add(saveQuote(ticker));
+        }
+
+        return quotes;
     }
 
     /**
      * Helper method for saveQuotes().
      */
     public Quote saveQuote(String ticker) {
-        return null;
+        Quote quote = buildQuoteFromIexQuote(findIexQuoteByTicker(ticker));
+        return saveQuote(quote);
     }
 
     /**

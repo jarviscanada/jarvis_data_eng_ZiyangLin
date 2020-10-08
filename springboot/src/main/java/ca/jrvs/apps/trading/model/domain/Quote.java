@@ -20,12 +20,12 @@ public class Quote implements Entity<String> {
     }
 
     @Override
-    public String getID() {
+    public String getId() {
         return ticker;
     }
 
     @Override
-    public void setID(String ticker) {
+    public void setId(String ticker) {
         this.ticker = ticker;
     }
 

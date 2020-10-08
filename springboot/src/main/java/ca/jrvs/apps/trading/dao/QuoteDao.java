@@ -52,7 +52,7 @@ public class QuoteDao implements CrudRepository<Quote, String> {
      */
     @Override
     public Quote save(Quote quote) {
-        if (existsById(quote.getID())) {
+        if (existsById(quote.getId())) {
             int updatedRowNo = updateOne(quote);
             if (updatedRowNo != 1) {
                 throw new DataRetrievalFailureException("error: unable to update quote.");
@@ -97,7 +97,7 @@ public class QuoteDao implements CrudRepository<Quote, String> {
         values[2] = quote.getBidSize();
         values[3] = quote.getAskPrice();
         values[4] = quote.getAskSize();
-        values[5] = quote.getID();
+        values[5] = quote.getId();
         return values;
     }
 
@@ -155,14 +155,14 @@ public class QuoteDao implements CrudRepository<Quote, String> {
     @Override
     public long count() {
         String countSql = "SELECT COUNT(*) FROM " + TABLE_NAME;
-        int count;
+        Integer count;
         try {
             count = jdbcTemplate.queryForObject(countSql, Integer.class);
         } catch (DataAccessException ex) {
             logger.debug("error: unable to obtain total number of quotes in quote.");
             return 0;
         }
-        return count;
+        return (int) count;
     }
 
     @Override
