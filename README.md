@@ -1,6 +1,6 @@
 # Ziyang Lin . Jarvis Consulting
 
-I am a new graduate from the University of Toronto with a bachelor degree in Statistics and Computer Science who holds a keen interest in both business and IT technologies. Within my coursework, I built a solid software engineering foundation along with working knowledge in data science and machine learning. Besides, my strong communication skills trained from a wide range of volunteering and leadership experience also allow me to work comfortably in both business and technical settings. I enjoy a dynamic and challenging work environment where I can apply my techincal knowledge to solve real-world business problems, and I am always open to new learning opportunities.
+I am a new graduate from the University of Toronto with a Bachelor's degree in Statistics and Computer Science who holds a keen interest in both business and IT technologies. Within my coursework, I built a solid software engineering foundation along with working knowledge in data science and machine learning. Besides, my strong communication skills trained from a wide range of volunteering and leadership experience also allow me to work comfortably in both business and technical settings. I enjoy a dynamic and challenging work environment where I can apply my techincal knowledge to solve real-world business problems, and I am always open to new learning opportunities.
 
 ## Skills
 
@@ -19,9 +19,9 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_ZiyangLin]
 
 **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_ZiyangLin/tree/master/core_java)]:
       
-  - Twitter App: Developed an 3-tier architecture application that interacts with the Twitter API to allow users to post, show, and delete tweets with a command line interface.
-  - JDBC App: Implemented a DAO pattern with JDBC to model objects in a retailer database and perform CRUD operations with them.
-  - Grep App: Implemented a Java application that reproduce the functionalities of grep command in linux, which can search for all occurrences of a regular expression in a root directory and write them to an output file.
+  - Twitter App: Developed a client-server architecture application that interacts with the Twitter API to allow users to post, show, and delete tweets with a command-line interface.
+  - JDBC App: Implemented an application with DAO pattern with JDBC to model objects in a retailer database and perform CRUD operations with them.
+  - Grep App: Implemented a Java application that reproduces the functionalities of grep command in Linux, which can search for all occurrences of a regular expression in a root directory and write them to an output file.
 
 **Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_ZiyangLin/tree/master/springboot)]: In progress
 
@@ -33,7 +33,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_ZiyangLin]
 
 
 ## Highlighted Projects
-**VAR Time Series Modelling in R**: Constructed equally-weighted (EW) and risk-parity (RP) factor-mimicking portfolios of macroeconomic variables of the past 30 years using multivariate time series model and analyzed their performance.
+**VAR Time Series Modelling in R**: Constructed equally-weighted (EW) and risk-parity (RP) factor-mimicking portfolios of macroeconomic variables of the past 30 years using a multivariate time series model (VAR) and analyzed their performance.
 
 **Decision Tree Classifier for News Headlines**: Built and trained a Python scikit-learn decision tree classifier to classify fake and real news headlines with both Gini and Information Gain criterion, and achieved a validation accuracy of 76%.
 
@@ -44,7 +44,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_ZiyangLin]
 
 ## Professional Experiences
 
-**Data Engineer, Jarvis Consulting Group (2020-present)**: Implemented multiple projects and applications that used a wide range of technologies including Java, RDBMS, Linux. Obtained hands-on experience in Agile practices in team collaboration such as holding Scrum ceremonies and leading the Scrum team's development cycle.
+**Data Engineer, Jarvis Consulting Group (2020-present)**: Implemented multiple projects and applications that used a wide range of technologies including Java, RDBMS, Linux. Obtained hands-on experience in Agile practices for team collaboration such as holding Scrum ceremonies and leading the Scrum team's development cycle.
 
 **Volunteer Consultant, CUSO International (NPO) (2018-2020)**: Designed a software and database architecture for a pilot maternal health care information system (Mother Care Info Track) in Nigeria by researching 30+ software modules, and wrote a Python program to output project cost based on the Amazon TCO model. Delivered remote consultancy services and composed a research report to the CUSO project team that aims to provide an actionable strategy against external climate shocks for small-scale women agricultural entrepreneurs in the Philippines.
 
