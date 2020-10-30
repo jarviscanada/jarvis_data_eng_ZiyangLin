@@ -15,7 +15,7 @@
   "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_ZiyangLin",
   "highlighted_projects": [
     {
-      "description": "Constructed equally-weighted (EW) and risk-parity (RP) factor-mimicking portfolios of macroeconomic variables of the past 30 years using multivariate time series model and analyzed their performance.",
+      "description": "Constructed equally-weighted (EW) and risk-parity (RP) factor-mimicking portfolios of macroeconomic variables of the past 30 years using a multivariate time series model (VAR) and analyzed their performance.",
       "name": "VAR Time Series Modelling in R"
     },
     {
@@ -39,20 +39,25 @@
     },
     {
       "description": [
-        "Twitter App: Developed an 3-tier architecture application that interacts with the Twitter API to allow users to post, show, and delete tweets with a command line interface.",
-        "JDBC App: Implemented a DAO pattern with JDBC to model objects in a retailer database and perform CRUD operations with them.",
-        "Grep App: Implemented a Java application that reproduce the functionalities of grep command in linux, which can search for all occurrences of a regular expression in a root directory and write them to an output file."
+        "Twitter App: Developed a client-server architecture application that interacts with the Twitter API to allow users to post, show, and delete tweets with a command-line interface.",
+        "JDBC App: Implemented an application with DAO pattern with JDBC to model objects in a retailer database and perform CRUD operations with them.",
+        "Grep App: Implemented a Java application that reproduces the functionalities of grep command in Linux, which can search for all occurrences of a regular expression in a root directory and write them to an output file."
       ],
       "git_url": "/core_java",
       "name": "Core Java Apps"
     },
     {
-      "description": "In progress",
+      "description": "Developed a dockerized Spring Boot based stock trading REST API application that allows individual trader to create and view trading account, deposit or withdraw funds, and submit market orders for stocks in the daily list on an HTML page or through REST endpoints. The application features a 3-tier architecture in which the client UI is displayed using a Swagger UI, and the database component is managed by a PostgreSQL database that connects to the IEX Cloud API for real-time stock quote data updates.",
       "git_url": "/springboot",
       "name": "Springboot App"
     },
     {
-      "description": "Not yet started",
+      "description": "Performed data analytics and wrangling against a data warehouse ingested from the London Gift Shop retail database using the Python Pandas package and Jupyter Notebook. The notebook analysis presents historical revenue trends, customer activities, and segmentation of customers based on the RFM frameworks to drive a marketing strategy that aims to reboost LGS's flattening revenue.",
+      "git_url": "/python_data_wrangling",
+      "name": "Python Data Analytics and Wrangling"
+    },
+    {
+      "description": "In progress",
       "git_url": "/hadoop",
       "name": "Hadoop"
     },
@@ -88,7 +93,7 @@
   "professional_experience": [
     {
       "company": "Jarvis Consulting Group",
-      "description": "Implemented multiple projects and applications that used a wide range of technologies including Java, RDBMS, Linux. Obtained hands-on experience in Agile practices in team collaboration such as holding Scrum ceremonies and leading the Scrum team's development cycle.",
+      "description": "Implemented multiple projects and applications that used a wide range of technologies including Java, RDBMS, Linux. Obtained hands-on experience in Agile practices for team collaboration such as holding Scrum ceremonies and leading the Scrum team's development cycle.",
       "duration": "2020-present",
       "title": "Data Engineer"
     },
@@ -131,5 +136,5 @@
       "Advanced Excel"
     ]
   },
-  "summary": "I am a new graduate from the University of Toronto with a bachelor degree in Statistics and Computer Science who holds a keen interest in both business and IT technologies. Within my coursework, I built a solid software engineering foundation along with working knowledge in data science and machine learning. Besides, my strong communication skills trained from a wide range of volunteering and leadership experience also allow me to work comfortably in both business and technical settings. I enjoy a dynamic and challenging work environment where I can apply my techincal knowledge to solve real-world business problems, and I am always open to new learning opportunities."
+  "summary": "I am a new graduate from the University of Toronto with a Bachelor's degree in Statistics and Computer Science who holds a keen interest in both business and IT technologies. Within my coursework, I built a solid software engineering foundation along with working knowledge in data science and machine learning. Besides, my strong communication skills trained from a wide range of volunteering and leadership experience also allow me to work comfortably in both business and technical settings. I enjoy a dynamic and challenging work environment where I can apply my techincal knowledge to solve real-world business problems, and I am always open to new learning opportunities."
 }
