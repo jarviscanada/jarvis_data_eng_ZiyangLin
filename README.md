@@ -23,9 +23,11 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_ZiyangLin]
   - JDBC App: Implemented an application with DAO pattern with JDBC to model objects in a retailer database and perform CRUD operations with them.
   - Grep App: Implemented a Java application that reproduces the functionalities of grep command in Linux, which can search for all occurrences of a regular expression in a root directory and write them to an output file.
 
-**Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_ZiyangLin/tree/master/springboot)]: In progress
+**Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_ZiyangLin/tree/master/springboot)]: Developed a dockerized Spring Boot based stock trading REST API application that allows individual trader to create and view trading account, deposit or withdraw funds, and submit market orders for stocks in the daily list on an HTML page or through REST endpoints. The application features a 3-tier architecture in which the client UI is displayed using a Swagger UI, and the database component is managed by a PostgreSQL database that connects to the IEX Cloud API for real-time stock quote data updates.
 
-**Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_ZiyangLin/tree/master/hadoop)]: Not yet started
+**Python Data Analytics and Wrangling** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_ZiyangLin/tree/master/python_data_wrangling)]: Performed data analytics and wrangling against a data warehouse ingested from the London Gift Shop retail database using the Python Pandas package and Jupyter Notebook. The notebook analysis presents historical revenue trends, customer activities, and segmentation of customers based on the RFM frameworks to drive a marketing strategy that aims to reboost LGS's flattening revenue.
+
+**Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_ZiyangLin/tree/master/hadoop)]: In progress
 
 **Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_ZiyangLin/tree/master/spark)]: Not yet started
 

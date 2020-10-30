@@ -50,10 +50,13 @@ jarvis_projects:
       - "Grep App: Implemented a Java application that reproduces the functionalities of grep command in Linux, which can search for all occurrences of a regular expression in a root directory and write them to an output file."
   - name: "Springboot App"
     git_url: "/springboot"
-    description: "In progress"
+    description: "Developed a dockerized Spring Boot based stock trading REST API application that allows individual trader to create and view trading account, deposit or withdraw funds, and submit market orders for stocks in the daily list on an HTML page or through REST endpoints. The application features a 3-tier architecture in which the client UI is displayed using a Swagger UI, and the database component is managed by a PostgreSQL database that connects to the IEX Cloud API for real-time stock quote data updates."
+  - name: "Python Data Analytics and Wrangling"
+    git_url: "/python_data_wrangling"
+    description: "Performed data analytics and wrangling against a data warehouse ingested from the London Gift Shop retail database using the Python Pandas package and Jupyter Notebook. The notebook analysis presents historical revenue trends, customer activities, and segmentation of customers based on the RFM frameworks to drive a marketing strategy that aims to reboost LGS's flattening revenue."
   - name: "Hadoop"
     git_url: "/hadoop"
-    description: "Not yet started"
+    description: "In progress"
   - name: "Spark"
     git_url: "/spark"
     description: "Not yet started"
@@ -73,7 +76,6 @@ highlighted_projects:
     description: "Developed and tuned a multiclass classification neural network with Python scikit-learn for facial expression recognition using the Toronto Face Dataset, and achieved a 79% validation accuracy."
   - name: "JavaFX Mini-Games"
     description: "Developed multiple simple games that utilize Java OOP principles including a Snake Game, a Jigsaw Puzzle Game, and a Treasure Hunter Game with JavaFX."
-
 
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
