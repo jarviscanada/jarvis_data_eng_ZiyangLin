@@ -4,9 +4,9 @@ I am a new graduate from the University of Toronto with a Bachelor's degree in S
 
 ## Skills
 
-**Proficient:** Java, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git, Python (numpy, scikit-learn, and PyTorch), R (Linear Regression, Time Series, Bayesian Modeling), Advanced Excel
+**Proficient:** Java, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git, Python (numpy, pandas, and PyTorch), R (Linear Regression, Time Series, Bayesian Modeling)
 
-**Competent:** REST API, Springboot, Docker, Latex, Theory of Computation
+**Competent:** REST API, Springboot, Docker, Latex, Hadoop/Hive
 
 **Familiar:** HTML/CSS, Javascript, C, Verilog, Assembly Language
 
@@ -25,9 +25,9 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_ZiyangLin]
 
 **Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_ZiyangLin/tree/master/springboot)]: Developed a dockerized Spring Boot based stock trading REST API application that allows individual trader to create and view trading account, deposit or withdraw funds, and submit market orders for stocks in the daily list on an HTML page or through REST endpoints. The application features a 3-tier architecture in which the client UI is displayed using a Swagger UI, and the database component is managed by a PostgreSQL database that connects to the IEX Cloud API for real-time stock quote data updates.
 
-**Python Data Analytics and Wrangling** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_ZiyangLin/tree/master/python_data_wrangling)]: Performed data analytics and wrangling against a data warehouse ingested from the London Gift Shop retail database using the Python Pandas package and Jupyter Notebook. The notebook analysis presents historical revenue trends, customer activities, and segmentation of customers based on the RFM frameworks to drive a marketing strategy that aims to reboost LGS's flattening revenue.
+**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_ZiyangLin/tree/master/python_data_wrangling)]: Performed data analytics and wrangling against a data warehouse ingested from the London Gift Shop retail database using the Python Pandas package and Jupyter Notebook. The notebook analysis presents historical revenue trends, customer activities, and segmentation of customers based on the RFM frameworks to drive a marketing strategy that aims to reboost LGS's flattening revenue.
 
-**Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_ZiyangLin/tree/master/hadoop)]: In progress
+**Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_ZiyangLin/tree/master/hadoop)]: Provisioned a Dataproc Hadoop cluster in Google Cloud Platform, and composed a Zeppelin notebook that introduces and evaluates big data technologies and core Hadoop components along with various optimization techniques using sample HiveQL queries to the Jarvis trading team.
 
 **Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_ZiyangLin/tree/master/spark)]: Not yet started
 

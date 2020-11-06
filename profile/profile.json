@@ -54,10 +54,10 @@
     {
       "description": "Performed data analytics and wrangling against a data warehouse ingested from the London Gift Shop retail database using the Python Pandas package and Jupyter Notebook. The notebook analysis presents historical revenue trends, customer activities, and segmentation of customers based on the RFM frameworks to drive a marketing strategy that aims to reboost LGS's flattening revenue.",
       "git_url": "/python_data_wrangling",
-      "name": "Python Data Analytics and Wrangling"
+      "name": "Python Data Analytics"
     },
     {
-      "description": "In progress",
+      "description": "Provisioned a Dataproc Hadoop cluster in Google Cloud Platform, and composed a Zeppelin notebook that introduces and evaluates big data technologies and core Hadoop components along with various optimization techniques using sample HiveQL queries to the Jarvis trading team.",
       "git_url": "/hadoop",
       "name": "Hadoop"
     },
@@ -116,7 +116,7 @@
       "Springboot",
       "Docker",
       "Latex",
-      "Theory of Computation"
+      "Hadoop/Hive"
     ],
     "familiar": [
       "HTML/CSS",
@@ -131,9 +131,8 @@
       "RDBMS/SQL",
       "Agile/Scrum",
       "Git",
-      "Python (numpy, scikit-learn, and PyTorch)",
-      "R (Linear Regression, Time Series, Bayesian Modeling)",
-      "Advanced Excel"
+      "Python (numpy, pandas, and PyTorch)",
+      "R (Linear Regression, Time Series, Bayesian Modeling)"
     ]
   },
   "summary": "I am a new graduate from the University of Toronto with a Bachelor's degree in Statistics and Computer Science who holds a keen interest in both business and IT technologies. Within my coursework, I built a solid software engineering foundation along with working knowledge in data science and machine learning. Besides, my strong communication skills trained from a wide range of volunteering and leadership experience also allow me to work comfortably in both business and technical settings. I enjoy a dynamic and challenging work environment where I can apply my techincal knowledge to solve real-world business problems, and I am always open to new learning opportunities."
